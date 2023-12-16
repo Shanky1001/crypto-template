@@ -58,3 +58,42 @@ export const ROADMAP_DATA = [
     data: "Diam dolor ipsum sit amet erat ipsum lorem sit",
   },
 ];
+
+export const SERVICES = [
+  {
+    id: "1",
+    heading: "Currency Wallet",
+    data: "Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo",
+    img: "icon-7.png",
+  },
+  {
+    id: "2",
+    heading: "Currency Transaction",
+    data: "Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo",
+    img: "icon-3.png",
+  },
+  {
+    id: "3",
+    heading: "Bitcoin Investment",
+    data: "Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo",
+    img: "icon-9.png",
+  },
+  {
+    id: "4",
+    heading: "Currency Exchange",
+    data: "Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo",
+    img: "icon-5.png",
+  },
+  {
+    id: "5",
+    heading: "Bitcoin Escrow",
+    data: "Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo",
+    img: "icon-2.png",
+  },
+  {
+    id: "6",
+    heading: "Token Sale",
+    data: "Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo",
+    img: "icon-8.png",
+  },
+];
