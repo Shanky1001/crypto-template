@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5">
-      <a href="index.html" className="navbar-brand d-flex align-items-center">
+      <Link to="/" className="navbar-brand d-flex align-items-center">
         <h2 className="m-0 text-primary">
           <img
             className="img-fluid me-2"
@@ -13,7 +13,7 @@ function NavBar() {
           />
           Crypto
         </h2>
-      </a>
+      </Link>
       <button
         type="button"
         className="navbar-toggler"
