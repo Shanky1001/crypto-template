@@ -1,9 +1,7 @@
-import React from 'react'
+import RoadMap from "../../components/roadmap/RoadMap";
 
 function RoadMapPage() {
-  return (
-    <div>RoadMapPage</div>
-  )
+  return <RoadMap />;
 }
 
-export default RoadMapPage
+export default RoadMapPage;

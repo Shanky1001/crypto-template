@@ -25,7 +25,7 @@ function LayoutWrapper({ children }) {
                       <span>Pages</span>
                     </li>
                     <li className="breadcrumb-item active" aria-current="page">
-                      {location.pathname}
+                      {location.pathname.replace(/\//g, '')}
                     </li>
                   </ol>
                 </nav>
