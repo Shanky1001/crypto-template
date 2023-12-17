@@ -1,3 +1,5 @@
+import { ICON2, ICON3, ICON5, ICON7, ICON8, ICON9 } from "../assets";
+
 export const FAQ = [
   {
     id: "1",
@@ -64,36 +66,36 @@ export const SERVICES = [
     id: "1",
     heading: "Currency Wallet",
     data: "Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo",
-    img: "icon-7.png",
+    img: ICON7,
   },
   {
     id: "2",
     heading: "Currency Transaction",
     data: "Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo",
-    img: "icon-3.png",
+    img: ICON3,
   },
   {
     id: "3",
     heading: "Bitcoin Investment",
     data: "Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo",
-    img: "icon-9.png",
+    img: ICON9,
   },
   {
     id: "4",
     heading: "Currency Exchange",
     data: "Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo",
-    img: "icon-5.png",
+    img: ICON5,
   },
   {
     id: "5",
     heading: "Bitcoin Escrow",
     data: "Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo",
-    img: "icon-2.png",
+    img: ICON2,
   },
   {
     id: "6",
     heading: "Token Sale",
     data: "Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo",
-    img: "icon-8.png",
+    img: ICON8,
   },
 ];

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { ICON1 } from "../../assets";
 
 function NavBar() {
   return (
@@ -7,7 +8,7 @@ function NavBar() {
         <h2 className="m-0 text-primary">
           <img
             className="img-fluid me-2"
-            src="/src/assets/img/icon-1.png"
+            src={ICON1}
             alt=""
             style={{ width: "45px" }}
           />

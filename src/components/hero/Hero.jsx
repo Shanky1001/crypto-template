@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { HERO1 } from "../../assets";
 
 function Hero() {
   return (
@@ -25,7 +26,7 @@ function Hero() {
             <img
               className="img-fluid animated pulse infinite"
               style={{ animationDuration: "3s" }}
-              src="/src/assets/img/hero-1.png"
+              src={HERO1}
               alt="hero-image"
             />
           </div>

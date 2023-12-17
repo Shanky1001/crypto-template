@@ -2,6 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 import Footer from "../components/footer/Footer";
 import NavBar from "../components/navbar/NavBar";
 import PropTypes from "prop-types";
+import { HERO2 } from "../assets";
 
 function LayoutWrapper({ children }) {
   const location = useLocation();
@@ -33,7 +34,7 @@ function LayoutWrapper({ children }) {
               <div className="col-lg-6 animated fadeIn">
                 <img
                   className="img-fluid animated pulse infinite"
-                  src="/src/assets/img/hero-2.png"
+                  src={HERO2}
                   alt=""
                 />
               </div>

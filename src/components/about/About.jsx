@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { FaCheck } from "react-icons/fa";
+import { ABOUT } from "../../assets";
 
 function About() {
   return (
@@ -7,7 +8,7 @@ function About() {
       <div className="container">
         <div className="row g-5 align-items-center">
           <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-            <img className="img-fluid" src="/src/assets/img/about.png" alt="" />
+            <img className="img-fluid" src={ABOUT} alt="about-image" />
           </div>
           <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
             <div className="h-100">
