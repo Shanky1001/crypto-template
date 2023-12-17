@@ -17,7 +17,7 @@ function Features() {
         <div className="row g-5">
           <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <div className="d-flex align-items-start">
-              <img className="img-fluid flex-shrink-0" src={ICON7} alt="" />
+              <img className="img-fluid flex-shrink-0" src={ICON7} alt="" loading="lazy" />
               <div className="ps-4">
                 <h5 className="mb-3">Easy To Start</h5>
                 <span>
@@ -29,7 +29,7 @@ function Features() {
           </div>
           <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
             <div className="d-flex align-items-start">
-              <img className="img-fluid flex-shrink-0" src={ICON6} alt="" />
+              <img className="img-fluid flex-shrink-0" src={ICON6} alt="" loading="lazy" />
               <div className="ps-4">
                 <h5 className="mb-3">Safe & Secure</h5>
                 <span>
@@ -41,7 +41,7 @@ function Features() {
           </div>
           <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
             <div className="d-flex align-items-start">
-              <img className="img-fluid flex-shrink-0" src={ICON5} alt="" />
+              <img className="img-fluid flex-shrink-0" src={ICON5} alt="" loading="lazy" />
               <div className="ps-4">
                 <h5 className="mb-3">Affordable Plans</h5>
                 <span>
@@ -53,7 +53,7 @@ function Features() {
           </div>
           <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <div className="d-flex align-items-start">
-              <img className="img-fluid flex-shrink-0" src={ICON4} alt="" />
+              <img className="img-fluid flex-shrink-0" src={ICON4} alt="" loading="lazy" />
               <div className="ps-4">
                 <h5 className="mb-3">Secure Storage</h5>
                 <span>
@@ -65,7 +65,7 @@ function Features() {
           </div>
           <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
             <div className="d-flex align-items-start">
-              <img className="img-fluid flex-shrink-0" src={ICON3} alt="" />
+              <img className="img-fluid flex-shrink-0" src={ICON3} alt="" loading="lazy" />
               <div className="ps-4">
                 <h5 className="mb-3">Protected By Insurance</h5>
                 <span>
@@ -77,7 +77,7 @@ function Features() {
           </div>
           <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
             <div className="d-flex align-items-start">
-              <img className="img-fluid flex-shrink-0" src={ICON8} alt="" />
+              <img className="img-fluid flex-shrink-0" src={ICON8} alt="" loading="lazy"/>
               <div className="ps-4">
                 <h5 className="mb-3">24/7 Support</h5>
                 <span>

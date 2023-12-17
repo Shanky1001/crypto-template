@@ -7,6 +7,7 @@ import {
   FaLinkedin,
 } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
+import { ICON1 } from "../../assets";
 
 function Footer() {
   return (
@@ -20,8 +21,8 @@ function Footer() {
             <h1 className="text-primary mb-4">
               <img
                 className="img-fluid me-2"
-                src="/src/assets/img/icon-1.png"
-                alt=""
+                src={ICON1}
+                alt="logo" loading="lazy"
                 style={{ width: "45px" }}
               />
               Crypto

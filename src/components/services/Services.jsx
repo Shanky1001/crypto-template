@@ -26,7 +26,7 @@ function Services() {
                 <div className="service-item bg-white p-5">
                   <img
                     className="img-fluid mb-4"
-                    src={`/src/assets/img/${val.img}`}
+                    src={val.img} loading="lazy"
                     alt=""
                   />
                   <h5 className="mb-3">{val.heading}</h5>

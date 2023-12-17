@@ -12,7 +12,7 @@ function Facts() {
             <img
               className="img-fluid mb-4"
               src={ICON9}
-              alt="today-transaction"
+              alt="today-transaction" loading="lazy"
             />
             <h1 className="display-4" data-toggle="counter-up">
               123456
@@ -26,7 +26,7 @@ function Facts() {
             <img
               className="img-fluid mb-4"
               src={ICON10}
-              alt="monthly-transaction"
+              alt="monthly-transaction" loading="lazy"
             />
             <h1 className="display-4" data-toggle="counter-up">
               123456
@@ -40,7 +40,7 @@ function Facts() {
             <img
               className="img-fluid mb-4"
               src={ICON2}
-              alt="total-transaction"
+              alt="total-transaction" loading="lazy"
             />
             <h1 className="display-4" data-toggle="counter-up">
               123456
